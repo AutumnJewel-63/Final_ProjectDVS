@@ -13,16 +13,13 @@ a:-webkit-any-link {
 #header{
     position: sticky;
     top:0;
-    z-index: 1;
+    z-index: 2;
     background-color:white;
 }
 .heading{
     display:inline-block;
     vertical-align: middle;
     margin:15px 15px 25px 15px;
-}
-#header_section2{
-    margin-right:0%;
 }
 .header_content{
     margin:10px;
@@ -112,4 +109,28 @@ a:-webkit-any-link {
 .whyCodeDifferently_box{
     margin: 2%;
 }
+/*CONTACT US*/
+#contactUsAndMap{
+    margin-top: 100px;
+    display:inline-block;
+    color: white;
+    background-color: rgb(53, 53, 170);
+    width: 100%;
+}
+div.contactUs_Section{
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 1;
+}
+#map_subsection{
+    width: 50%;
+    height:auto;
 
+}
+.socialMedia{
+    width:2vw;
+}
+
+#justContactUs{
+    margin-left: 5%;
+}
