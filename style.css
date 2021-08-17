@@ -1,5 +1,5 @@
 *{
-    font-family:Verdana, sans-serif; 
+    font-family:Verdana, sans-serif;
 }
 body{
     margin:0px;
@@ -67,9 +67,41 @@ a:-webkit-any-link {
     width: 660px;
     padding: 10px 30px 10px 150px;
     background-color: rgb(74, 74, 170);
-    z-index:1;
-
 }
 #codeDifferentlySpan{
     color:orange;
+}
+#ourPrograms, #whyCodeDifferently{
+    margin: 0 100px;
+    text-align: left;
+    color:rgb(70, 65, 65);
+}
+#ourPrograms_title, #whyCodeDifferently_title{
+    font-size: 1.5em;
+    margin: 75px 0 40px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+.ourProgramsSubsection{
+    display:inline-block;
+    width:550px;
+    /*border:2px solid black;*/
+}
+.titleOurPrograms{
+    font-size: 1.1em;
+    margin-bottom:35px;
+}
+.paragraphOurPrograms{
+    color:rgb(92, 92, 92);
+    line-height:27px;
+}
+.buttonOurPrograms{
+    background-color:white;
+    border-color: black;
+    border-width: 2px;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.textButtonsOurPrograms{
+    color:black;
 }
