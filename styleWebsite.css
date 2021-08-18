@@ -1,9 +1,10 @@
 *{
-    font-family:Verdana, sans-serif;
+    font-family:Lucida Sans Unicode, Helvetica, CopperPlate, Linotte;
 }
 body{
     margin:0px;
 }
+/*HEADING*/
 img{
     width:18vw;;
 }
@@ -29,7 +30,7 @@ a:-webkit-any-link {
 }
 #home_header, .header_content:hover{
     padding-bottom:1px;
-    border-bottom:2px solid rgb(233, 135, 6);
+    border-bottom:2px solid #f47d26;
 }
 #contactUs_header{
     margin-right:24px;
@@ -39,8 +40,9 @@ a:-webkit-any-link {
     border:0px;
     border-radius: 5px;
     color:white;
-    background-color:rgb(247, 115, 8);
+    background-color: #f47d26;
 }
+/*PICTURE FOR OVERLAP*/
 #imageForOverlap{
     width: 100%;
 }
@@ -58,7 +60,7 @@ a:-webkit-any-link {
     font-size: 2.5em;
 }
 #diversityInTech{
-    text-decoration:underline rgb(247,115,8) 17px;
+    text-decoration:underline #f47d26 17px;
     z-index: 0;
 }
 .paragraphOverlap{
@@ -67,54 +69,65 @@ a:-webkit-any-link {
     top:400px;
     width: 660px;
     padding: 10px 10% 10px 150px;
-    background-color: rgb(74, 74, 170);
+    background-color: #243e90;
 }
 #codeDifferentlySpan{
-    color:orange;
+    color:#f47d26;
 }
-#ourPrograms, #whyCodeDifferently{
-    margin-left: 13vw;
-    text-align: left;
-    color:rgb(70, 65, 65);
-}
-#ourPrograms_title, #whyCodeDifferently_title{
-    font-size: 1.5em;
-    margin: 75px 0 40px;
-    font-weight: bolder;
-    letter-spacing: -1px;
-}
-.ourProgramsSubsection{
+/*OUR APPROACH*/
+#ourApproach{
     display:inline-block;
-    width:550px;
-    /*border:2px solid black;*/
+    color: white;
+    background-color: #243e90;
+    padding: 100px 0 100px 10%;
 }
-.titleOurPrograms{
-    font-size: 1.1em;
-    margin-bottom:35px;
+#ourApproach_title{
+    color: #f47d26;
+    font-weight: bold;
 }
-.paragraphOurPrograms{
-    color:rgb(92, 92, 92);
-    line-height:27px;
+#ourApproach_subtitle{
+    margin-bottom: 100px;
+    width: 40%;
+    letter-spacing: 1px;;
+    font-size: 1.5em;
+    font-weight: bolder;
 }
-.buttonOurPrograms{
-    background-color:white;
-    border-color: black;
-    border-width: 2px;
-    padding:10px 20px;
-    border-radius: 5px;
+div.pillar{
+    display:inline-block;
+    width:33%;
+    vertical-align: text-top;
+    margin-bottom: 4%;
 }
-.textButtonsOurPrograms{
-    color:black;
+.pillar_pictures{
+    width:50px;
+    display:inline-block;
+    vertical-align: top;
 }
-.whyCodeDifferently_box{
-    margin: 2%;
+.pictureInPillar{
+    width: 50px;
+}
+#theFivePillars{
+    display:inline-block;
+}
+.textPillar{
+    display: inline-block;
+    width:70%;
+    margin-left:6%;
+}
+.headingPillar{
+    display:inline-block;
+    margin: 0 0 -5px 0;
+}
+.paragraphPillar{
+    color:rgb(185, 185, 185);
 }
 /*CONTACT US*/
 #contactUsAndMap{
+    position: sticky;
     margin-top: 100px;
     display:inline-block;
     color: white;
-    background-color: rgb(53, 53, 170);
+    background-color: #243e90;
     width: 100%;
 }
 div.contactUs_Section{
@@ -125,7 +138,6 @@ div.contactUs_Section{
 #map_subsection{
     width: 50%;
     height:auto;
-
 }
 .socialMedia{
     width:2vw;
@@ -133,4 +145,10 @@ div.contactUs_Section{
 
 #justContactUs{
     margin-left: 5%;
+}
+#footer_section{
+    font-size: .8em;
+    color:rgb(82, 82, 82);
+    text-align:center;
+    z-index: 0;
 }
