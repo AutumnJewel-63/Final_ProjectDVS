@@ -20,7 +20,7 @@ a:-webkit-any-link {
 .heading{
     display:inline-block;
     vertical-align: middle;
-    margin:15px 15px 25px 15px;
+    margin:15px 25px 25px auto;
 }
 .header_content{
     margin:10px;
