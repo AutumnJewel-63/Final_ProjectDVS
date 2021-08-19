@@ -1,0 +1,154 @@
+*{
+    font-family:Lucida Sans Unicode, Helvetica, CopperPlate, Linotte;
+}
+body{
+    margin:0px;
+}
+/*HEADING*/
+img{
+    width:18vw;;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+#header{
+    position: sticky;
+    top:0;
+    z-index: 2;
+    background-color:white;
+}
+.heading{
+    display:inline-block;
+    vertical-align: middle;
+    margin:15px 15px 25px 15px;
+}
+.header_content{
+    margin:10px;
+    color: rgb(70, 65, 65);
+    font-weight: bold;
+    font-size: .85em;
+}
+#home_header, .header_content:hover{
+    padding-bottom:1px;
+    border-bottom:2px solid #f47d26;
+}
+#contactUs_header{
+    margin-right:24px;
+}
+#contactUs_header{
+    padding: 10px 20px;
+    border:0px;
+    border-radius: 5px;
+    color:white;
+    background-color: #f47d26;
+}
+/*PICTURE FOR OVERLAP*/
+#imageForOverlap{
+    width: 100%;
+}
+.container{
+    position:relative;
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}
+.headingOverlap{
+    position:absolute;
+    width:51%;
+    top: 100px;
+    left:150px;
+    font-size: 2.5em;
+}
+#diversityInTech{
+    text-decoration:underline #f47d26 17px;
+    z-index: 0;
+}
+.paragraphOverlap{
+    line-height:30px;
+    position: absolute;
+    top:400px;
+    width: 660px;
+    padding: 10px 10% 10px 150px;
+    background-color: #243e90;
+}
+#codeDifferentlySpan{
+    color:#f47d26;
+}
+/*OUR APPROACH*/
+#ourApproach{
+    display:inline-block;
+    color: white;
+    background-color: #243e90;
+    padding: 100px 0 100px 10%;
+}
+#ourApproach_title{
+    color: #f47d26;
+    font-weight: bold;
+}
+#ourApproach_subtitle{
+    margin-bottom: 100px;
+    width: 40%;
+    letter-spacing: 1px;;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+div.pillar{
+    display:inline-block;
+    width:33%;
+    vertical-align: text-top;
+    margin-bottom: 4%;
+}
+.pillar_pictures{
+    width:50px;
+    display:inline-block;
+    vertical-align: top;
+}
+.pictureInPillar{
+    width: 50px;
+}
+#theFivePillars{
+    display:inline-block;
+}
+.textPillar{
+    display: inline-block;
+    width:70%;
+    margin-left:6%;
+}
+.headingPillar{
+    display:inline-block;
+    margin: 0 0 -5px 0;
+}
+.paragraphPillar{
+    color:rgb(185, 185, 185);
+}
+/*CONTACT US*/
+#contactUsAndMap{
+    position: sticky;
+    margin-top: 100px;
+    display:inline-block;
+    color: white;
+    background-color: #243e90;
+    width: 100%;
+}
+div.contactUs_Section{
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 1;
+}
+#map_subsection{
+    width: 50%;
+    height:auto;
+}
+.socialMedia{
+    width:2vw;
+}
+
+#justContactUs{
+    margin-left: 5%;
+}
+#footer_section{
+    font-size: .8em;
+    color:rgb(82, 82, 82);
+    text-align:center;
+    z-index: 0;
+}
