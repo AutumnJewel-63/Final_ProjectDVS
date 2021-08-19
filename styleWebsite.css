@@ -1,5 +1,5 @@
 *{
-    font-family:Lucida Sans Unicode, Helvetica, CopperPlate, Linotte;
+    font-family: Lucida Sans Unicode, Helvetica, Copperplate, Linotte;
 }
 body{
     margin:0px;
@@ -46,7 +46,7 @@ a:-webkit-any-link {
 #imageForOverlap{
     width: 100%;
 }
-.container{
+.containerPicture{
     position:relative;
     text-align: left;
     color: white;
