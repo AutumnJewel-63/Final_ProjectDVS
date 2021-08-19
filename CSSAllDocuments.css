@@ -302,6 +302,13 @@ div.pillar{
     position: relative;
     top: 50px;
 }
+/*OUR PARTNERS AND SUPPORTERS*/
+.image_OurPS{ 
+    width:20%; 
+    display:inline-table; 
+    margin:3px; 
+}
+
 
 /*CONTACT US*/
 #contactUsAndMap{
